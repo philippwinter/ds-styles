@@ -1,0 +1,163 @@
+/* CSS custom by Philipp Winter; Credits of images by InnoGames GmbH */
+
+/* General */
+
+#map_container > div > img {
+	opacity: 1.0 !important
+}
+
+/* Remove thick continent borders */
+
+#map_container > div:not(:first-child) > div:nth-child(1) {
+	width: 1px !important
+}
+
+#map_container > div:not(:first-child) > div:nth-child(2) {
+	height: 1px !important
+}
+
+/* Deactivate invite player village */
+
+#map_container > div > img[src*="map_new/ghost"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/default_underground.png") !important
+}
+
+/* Grass */
+
+#map_container > div > img[src*="map_new/gras1"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/default_underground.png") !important
+}
+
+#map_container > div > img[src*="map_new/gras2"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/default_underground.png") !important
+}
+
+#map_container > div > img[src*="map_new/gras3"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/default_underground.png") !important
+}
+
+#map_container > div > img[src*="map_new/gras4"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/default_underground.png") !important
+}
+
+/* Forest */
+
+#map_container > div > img[src*="map_new/forest"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/default_underground.png") !important
+}
+
+/* See */
+
+#map_container > div > img[src*="map_new/see"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/default_underground.png") !important
+}
+
+/* Hills */
+
+#map_container > div > img[src*="map_new/berg"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/default_underground.png") !important
+}
+
+/* Typical player villages */
+
+#map_container > div > img[src*="map_new/v1"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v1.png") !important
+}
+
+#map_container > div > img[src*="map_new/v2"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v2.png") !important
+}
+
+#map_container > div > img[src*="map_new/v3"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v3.png") !important
+}
+
+#map_container > div > img[src*="map_new/v4"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v4.png") !important
+}
+
+#map_container > div > img[src*="map_new/v5"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v5.png") !important
+}
+
+#map_container > div > img[src*="map_new/v6"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v6.png") !important
+}
+
+/* Typical barbarian villages */
+
+#map_container > div > img[src*="map_new/v1_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v1_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/v2_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v2_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/v3_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v3_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/v4_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v4_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/v5_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v5_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/v6_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/v6_left.png") !important
+}
+
+/* Bonus player villages */
+
+#map_container > div > img[src*="map_new/b1"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b1.png") !important
+}
+
+#map_container > div > img[src*="map_new/b2"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b2.png") !important
+}
+
+#map_container > div > img[src*="map_new/b3"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b3.png") !important
+}
+
+#map_container > div > img[src*="map_new/b4"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b4.png") !important
+}
+
+#map_container > div > img[src*="map_new/b5"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b5.png") !important
+}
+
+#map_container > div > img[src*="map_new/b6"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b6.png") !important
+}
+
+/* Bonus barbarian villages */
+
+#map_container > div > img[src*="map_new/b1_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b1_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/b2_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b2_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/b3_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b3_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/b4_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b4_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/b5_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b5_left.png") !important
+}
+
+#map_container > div > img[src*="map_new/b6_left"]{
+	content:url("https://raw.githubusercontent.com/philippwinter/ds-styles/master/assets/v2/map/b6_left.png") !important
+}
